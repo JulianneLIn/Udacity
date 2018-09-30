@@ -10,4 +10,4 @@ f = int(input("第二個日期的天:"))
 first_day = datetime.date(a,b,c)
 second_day = datetime.date(d,e,f)
 result = second_day-first_day
-print ("總共是:",(int(result.days)),"天")
+print ("總共是:",(int(result.days)+1),"天")
